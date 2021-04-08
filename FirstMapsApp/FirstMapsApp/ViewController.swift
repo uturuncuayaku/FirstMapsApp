@@ -31,6 +31,16 @@ class ViewController: UIViewController {
         nyc.title = "New York City"
         mapView.addAnnotation(nyc)
         
+        //new change
+        let cali = MKPointAnnotation()
+        cali.coordinate = CLLocationCoordinate2DMake(34.0522,-118.2437)
+        cali.title = "Los Angeles"
+        mapView.addAnnotation(cali)
+        
+        //TODO: will try to add to master branch in git
+        
+        
+
 
     }
 
